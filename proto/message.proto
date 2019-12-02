@@ -1,0 +1,16 @@
+syntax="proto3";
+
+package message;
+
+option java_package = "message";
+option java_outer_classname = "Message";
+
+message MessageEntity{
+    string topic = 1;
+    repeated string users=2;
+    string body = 3;
+}
+
+enum EventMessageTopic {
+    EventMessage = 0;
+}

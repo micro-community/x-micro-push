@@ -1,0 +1,28 @@
+{
+    "editor.tabSize": 2,
+    "editor.codeLens": true,
+    "editor.snippetSuggestions": "top",
+    "extensions.ignoreRecommendations": false,
+    "go.lintOnSave": "workspace",
+    "go.vetOnSave": "workspace",
+    "go.buildTags": "",
+    "go.buildFlags": [],
+    "go.lintFlags": [],
+    "go.vetFlags": [],
+    "go.useCodeSnippetsOnFunctionSuggest": false,
+    "go.testFlags": [
+        "-v"
+    ],
+    "go.autocompleteUnimportedPackages": true,
+
+    "protoc": {
+//        "path": "${env.GOPATH}/bin/protoc",
+        "options": [
+            "--proto_path=protoc/v3",
+            "--proto_path=protoc/v2",
+            "--proto_path=${workspaceRoot}/proto",
+            "--proto_path=${env.GOPATH}/src",
+            "--go_out=."
+        ]
+    }
+}
