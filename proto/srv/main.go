@@ -9,6 +9,7 @@ import (
 	"github.com/micro/go-micro"
 )
 
+//Streamer ..
 type Streamer struct{}
 
 //ServerStream Server side stream
