@@ -1,10 +1,5 @@
 syntax="proto3";
 
-package message;
-
-option java_package = "message";
-option java_outer_classname = "Message";
-
 message MessageEntity{
     string topic = 1;
     repeated string users=2;

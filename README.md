@@ -35,3 +35,13 @@ go get -u -v github.com/go-delve/delve/cmd/dlv
 more about [go-plugins](https://github.com/Microsoft/vscode-go/wiki/Go-tools-that-the-Go-extension-depends-on)
 
 NOTE: If you are using Go modules, then we strongly recommend using the [Go language server](https://github.com/microsoft/vscode-go#go-language-server) as it performs much better than the tools below.
+
+## toolsets
+
++ on windows
+
+```bash
+choco install protoc -y
+go get -u -v github.com/micro/protoc-gen-micro
+go get -u -v github.com/micro/protoc-gen-go
+```
