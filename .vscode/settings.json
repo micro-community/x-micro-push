@@ -25,7 +25,7 @@
             "--go_out=."
         ]
     },
-    "go.useLanguageServer": true,
+    "go.useLanguageServer": false,
     // "go.alternateTools": {
     //     "gopls": "bingo"
     //   },

@@ -17,7 +17,6 @@ func main() {
 	service.Init(web.Name(config.ServiceName),
 		web.Version(config.Version),
 	)
-
 	// static files
 	service.Handle("/", http.FileServer(http.Dir("html")))
 
