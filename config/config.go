@@ -35,19 +35,19 @@ type Cache struct {
 	Database
 }
 
-//Micro define our own Micro Config
-type Micro struct {
-	ServeName        string `toml:"micro_server_name"`
-	Address          string `toml:"micro_server_address"`
-	RegisterTTL      int    `toml:"micro_register_ttl"`
-	RegisterInterval int    `toml:"micro_register_interval"`
+//MicroSets define our own Micro Config
+type MicroSets struct {
+	MicroServerName       string `toml:"microservername"`
+	MicroServerAddress    string `toml:"microserveraddress"`
+	MicroRegisterTTL      int    `toml:"microregisterttl"`
+	MicroRegisterInterval int    `toml:"microregisterinterval"`
 }
 
 //Config From filea
 var (
 	DBConfig    Database
 	CacheConfig Cache
-	MicroConfig Micro
+	MicroConfig MicroSets
 )
 
 func init() {
@@ -58,7 +58,7 @@ func init() {
 	}
 
 	// read a Micro ENVVar
-	if err := mconfig.Get("hosts", "micro").Scan(&MicroConfig); err != nil {
+	if err := mconfig.Get("micro").Scan(&MicroConfig); err != nil {
 		fmt.Println(err)
 	}
 
@@ -72,6 +72,6 @@ func init() {
 		fmt.Println(err)
 	}
 
-	ServiceName = MicroConfig.ServeName
+	//	ServiceName = MicroConfig.ServeName
 
 }

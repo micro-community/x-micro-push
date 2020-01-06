@@ -1,13 +1,12 @@
 [hosts]
-  [hosts.micro]
-    micro_server_name = "micro.cn.push"
-    micro_server_address = ":8080"
-    micro_register_ttl = 30
-    micro_register_interval = 10
   [hosts.database]
     address = "10.0.0.1"
     port  = 3306
   [hosts.cache]
     address = "10.0.0.2"
     port  = 6379
-
+[micro]
+  microservername = "micro.cn.push"
+  microserveraddress = ":8080"
+  microregisterttl = 30
+  microregisterinterval = 10
