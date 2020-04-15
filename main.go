@@ -1,19 +1,19 @@
 package main
 
 import (
-	"github.com/micro-community/x-micro-push/server"
-	"github.com/micro-community/x-micro-push/config"
-	"github.com/micro/go-micro/util/log"
-	"github.com/micro/go-micro/web"
 	"net/http"
-)
 
+	"github.com/micro-community/x-micro-push/config"
+	"github.com/micro-community/x-micro-push/server"
+	"github.com/micro/go-micro/v2/util/log"
+	"github.com/micro/go-micro/v2/web"
+)
 
 func main() {
 	// New Service
 	service := web.NewService()
 
-	// Initialise service
+	// Initialize service
 	service.Init(web.Name(config.ServiceName),
 		web.Version(config.Version),
 	)

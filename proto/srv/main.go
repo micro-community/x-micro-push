@@ -6,7 +6,7 @@ import (
 	"log"
 
 	proto "github.com/micro-community/x-micro-push/proto/stream"
-	"github.com/micro/go-micro"
+	"github.com/micro/go-micro/v2"
 )
 
 //Streamer ..

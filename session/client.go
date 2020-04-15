@@ -2,7 +2,7 @@ package session
 
 import (
 	"github.com/gorilla/websocket"
-	"github.com/micro/go-micro/util/log"
+	"github.com/micro/go-micro/v2/util/log"
 	"sync"
 )
 

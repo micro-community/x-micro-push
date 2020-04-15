@@ -5,7 +5,7 @@ import (
 	"fmt"
 	proto "github.com/micro-community/x-micro-push/proto"
 	"github.com/micro-community/x-micro-push/session"
-	"github.com/micro/go-micro/util/log"
+	"github.com/micro/go-micro/v2/util/log"
 )
 
 //Message  Struct

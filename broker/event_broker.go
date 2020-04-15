@@ -3,9 +3,9 @@ package broker
 import (
 	"context"
 	proto "github.com/micro-community/x-micro-push/proto"
-	"github.com/micro/go-micro"
-	"github.com/micro/go-micro/metadata"
-	"github.com/micro/go-micro/util/log"
+	"github.com/micro/go-micro/v2"
+	"github.com/micro/go-micro/v2/metadata"
+	"github.com/micro/go-micro/v2/util/log"
 )
 
 // EventWorker is an status publisher for the go-micro broker

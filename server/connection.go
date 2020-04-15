@@ -5,8 +5,8 @@ import (
 	"github.com/micro-community/x-micro-push/config"
 	proto "github.com/micro-community/x-micro-push/proto/stream"
 	"github.com/micro-community/x-micro-push/session"
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/util/log"
+	"github.com/micro/go-micro/v2/client"
+	"github.com/micro/go-micro/v2/util/log"
 	"net/http"
 	"time"
 )
