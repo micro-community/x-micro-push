@@ -3,8 +3,8 @@ package broker
 import (
 	"encoding/json"
 	"fmt"
-	proto "github.com/micro-community/x-micro-push/proto"
-	"github.com/micro-community/x-micro-push/session"
+	proto "github.com/micro-community/x-push/proto"
+	"github.com/micro-community/x-push/session"
 	"github.com/micro/go-micro/v2/util/log"
 )
 

@@ -3,7 +3,7 @@ package server
 import (
 	"context"
 	"github.com/gorilla/websocket"
-	proto "github.com/micro-community/x-micro-push/proto/stream"
+	proto "github.com/micro-community/x-push/proto/stream"
 	"github.com/micro/go-micro/v2/util/log"
 	"io"
 )

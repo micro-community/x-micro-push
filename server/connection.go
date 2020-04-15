@@ -2,9 +2,9 @@ package server
 
 import (
 	"github.com/gorilla/websocket"
-	"github.com/micro-community/x-micro-push/config"
-	proto "github.com/micro-community/x-micro-push/proto/stream"
-	"github.com/micro-community/x-micro-push/session"
+	"github.com/micro-community/x-push/config"
+	proto "github.com/micro-community/x-push/proto/stream"
+	"github.com/micro-community/x-push/session"
 	"github.com/micro/go-micro/v2/client"
 	"github.com/micro/go-micro/v2/util/log"
 	"net/http"

@@ -2,7 +2,7 @@ package broker
 
 import (
 	"context"
-	proto "github.com/micro-community/x-micro-push/proto"
+	proto "github.com/micro-community/x-push/proto"
 	"github.com/micro/go-micro/v2"
 	"github.com/micro/go-micro/v2/metadata"
 	"github.com/micro/go-micro/v2/util/log"

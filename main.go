@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/micro-community/x-micro-push/config"
-	"github.com/micro-community/x-micro-push/server"
+	"github.com/micro-community/x-push/config"
+	"github.com/micro-community/x-push/server"
 	"github.com/micro/go-micro/v2/util/log"
 	"github.com/micro/go-micro/v2/web"
 )

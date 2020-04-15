@@ -44,5 +44,16 @@
         "diagnostics": true,
         "documentLink": true
       },
-      "go.languageServerFlags": ["-rpc.trace","-logfile", "${workspaceRoot}/tracelog.log"],
+    "go.languageServerFlags": [
+        "-rpc.trace",
+        "-logfile",
+        "${workspaceRoot}/tracelog.log"
+    ],
+    "editor": {
+        "codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "codeActionsOnSaveTimeout": 750,
+    }
+
 }

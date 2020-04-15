@@ -5,7 +5,7 @@ import (
 	"io"
 	"log"
 
-	proto "github.com/micro-community/x-micro-push/proto/stream"
+	proto "github.com/micro-community/x-push/proto/stream"
 	"github.com/micro/go-micro/v2"
 )
 
